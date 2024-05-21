@@ -1,6 +1,6 @@
 package main
 
 func main() {
-	// get chat id
-	// send message
+	// get bot token and chat id
+	// send message by url
 }
