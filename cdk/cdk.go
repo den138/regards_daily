@@ -25,12 +25,6 @@ func main() {
 
 	app := awscdk.NewApp(nil)
 
-	NewCdkStack(app, "CdkStack", &CdkStackProps{
-		awscdk.StackProps{
-			Env: env(),
-		},
-	})
-
 	app.Synth(nil)
 }
 
